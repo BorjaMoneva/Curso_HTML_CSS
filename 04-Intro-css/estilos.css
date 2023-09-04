@@ -1,0 +1,34 @@
+h1{
+    color: red;
+}
+
+/* Estoy provando colores y fuentes*/
+p{
+    color: blue;
+    font-size: 16pt;
+}
+
+/* # para referirse a id*/
+#primera-noticia{
+    color: green;
+    font-size: 12pt;
+}
+
+#segunda-noticia{
+    color: darkmagenta;
+}
+
+/*. para referirse a class*/
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/* * referencia a todo */
+*{
+    color: yellow;
+}
+
+.autor, .fecha, .ubicacion, h1, #segunda-noticia{
+    text-decoration: underline;
+}
